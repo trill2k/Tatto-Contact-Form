@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#063e5b, #530762);
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li {
+    margin: 0 15px;
+    align-items: start;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+nav ul li:hover{
+    transform: scale(1.1); /* Grow effect on hover */
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.social-media {
+    height: 48px;
+    width: 48px;
+    padding: 0 10px 0 10px;   
+}
+
+.social-media a img {
+    width: 45px;
+    height: 45px;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 100px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#appointment-form {
+    background: rgba(193, 193, 193, 0.224);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin-top: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    justify-content: center;
+    
+}
+#appointment-form:hover {
+    transform: scale(1.05);
+}
+
+#appointment-form h2 {
+    margin-top: 10;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#appointment-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 10px 0;
+}
+
+#appointment-form label {
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+#appointment-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    
+}
+
+#appointment-form button {
+    padding: 10px;
+    margin: 15px 0 20px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #d18e12;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#appointment-form button:hover {
+    background-color: #b5710c;
+}
